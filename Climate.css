@@ -1,0 +1,78 @@
+.header {
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+}
+
+
+p.Exxon {
+    text-align: justify;
+    color:black ;
+}
+
+em.Exxon {
+    text-decoration: double;
+}
+
+#s4{
+   font-weight: bold; 
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    text-shadow: 2px 2px #000;
+  }
+  
+  .lead span {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .bg-cover {
+    background-image: "Oil-background.png";
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    position: relative;
+    z-index: -2;
+  }
+  
+  .overlay {
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+  }
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+}
+
+
+
+
+
+
+
